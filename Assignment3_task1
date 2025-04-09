@@ -3,6 +3,6 @@ def factorial(n):
         return 1
     else:
         return n*factorial(n-1)
-sample_num=int(input("Enter a number :"))
+sample_num=int(input("Enter a number: "))
 result=factorial(sample_num)
 print('Factorial of',sample_num,'is:',result)
