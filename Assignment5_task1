@@ -1,0 +1,9 @@
+student={'Alice':'85',
+          'shri':'82',
+          'priya':'83'
+          }
+n=input("Enter the student's name: ")
+if (n in student):
+    print(n+'\'s is:',student[n])
+else:
+    print('Student not found')
